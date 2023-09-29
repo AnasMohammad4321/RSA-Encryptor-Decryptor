@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 class RSAApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("RSA Encryption/Decryption App")
+        self.root.title("RSA Encryptor-Decryptor")
         self.root.geometry("600x580")
         self.root.configure(bg="#DFDAD9")
         self.root.maxsize(600, 580)  
